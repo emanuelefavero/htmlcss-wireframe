@@ -8,6 +8,14 @@ HTML and CSS exercise to recreate a mobile wireframe layout.
 
 [**View Live Demo**](https://emanuelefavero.github.io/htmlcss-wireframe/)
 
+## How to run the project:
+
+1. Clone the repository: `git clone https://github.com/emanuelefavero/htmlcss-wireframe.git`
+2. Navigate to the project directory: `cd htmlcss-wireframe`
+3. Open `index.html` in your web browser to see the wireframe.
+
+> Note: Chrome 112+ is recommended for best CSS support, but any modern browser should work.
+
 ## Goal
 
 Reproduce the wireframe shown at the end of this document, with a focus on:
@@ -24,6 +32,13 @@ Reproduce the wireframe shown at the end of this document, with a focus on:
 - Focus on harmonious spacing rather than exact pixel-perfect values
 - Keep card heights visually consistent when they contain less text
 - Allow cards to grow in height when they contain more text
+
+## Project Structure
+
+```txt
+├── index.html
+└── style.css
+```
 
 ## Implementation Notes
 
