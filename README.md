@@ -4,11 +4,23 @@ HTML and CSS exercise to recreate a mobile wireframe layout.
 
 > Note: See the [Implementation Notes](#implementation-notes) section at the end of this document for implementation notes and design choices.
 
+## Table of Contents
+
+- [HTML/CSS Wireframe](#htmlcss-wireframe)
+  - [Table of Contents](#table-of-contents)
+  - [Live Demo](#live-demo)
+  - [How to run the project](#how-to-run-the-project)
+  - [Goal](#goal)
+  - [Requirements](#requirements)
+  - [Project Structure](#project-structure)
+  - [Implementation Notes](#implementation-notes)
+  - [Wireframe example](#wireframe-example)
+
 ## Live Demo
 
 [**View Live Demo**](https://emanuelefavero.github.io/htmlcss-wireframe/)
 
-## How to run the project:
+## How to run the project
 
 1. Clone the repository: `git clone https://github.com/emanuelefavero/htmlcss-wireframe.git`
 2. Navigate to the project directory: `cd htmlcss-wireframe`
@@ -49,7 +61,7 @@ Reproduce the wireframe shown at the end of this document, with a focus on:
 - A separate `.cards` wrapper was considered, but omitted to keep the structure simpler.
 - A dashed border is kept on `body` to make the simulated viewport clearly visible.
 
-## Wireframe
+## Wireframe example
 
 ![Wireframe](assets/wireframe.webp)
 
