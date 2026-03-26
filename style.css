@@ -3,3 +3,49 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  border-bottom: 2px solid black;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.75rem 1rem;
+}
+
+main {
+  padding: 1.25rem 2rem;
+  overflow-x: auto;
+
+  .card {
+    width: 100%;
+    max-width: 65ch;
+    min-width: 16ch;
+    height: 12.5rem; /* 200px */
+    margin: 0 auto;
+    overflow-y: auto;
+    border: 2px solid black;
+    padding: 1rem;
+
+    &:not(:first-child) {
+      margin-top: 1rem;
+    }
+
+    & > * + * {
+      margin-top: 0.15rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
+}
+
+footer {
+  border-top: 2px solid black;
+  font-size: 1.125rem;
+  padding: 0.5rem 1rem;
+}
