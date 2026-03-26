@@ -6,53 +6,42 @@
 }
 
 /* Layout */
+body {
+  width: 512px;
+  border: 2px dashed black;
+}
+
 header {
   padding: 0.75rem 1rem;
-  font-size: 2rem;
-  font-weight: bold;
   border-bottom: 2px solid black;
 }
 
 main {
-  padding: 1.25rem 2rem;
-  overflow-x: auto;
+  padding: 1.25rem 2.25rem;
 
-  /* Spacing between child elements */
-  & > * + * {
-    margin-top: 1rem;
+  /* Spacing between cards */
+  & > .card + .card {
+    margin-top: 1.25rem;
   }
 }
 
 footer {
   padding: 0.5rem 1rem;
-  font-size: 1.125rem;
+  padding-bottom: 2rem;
   border-top: 2px solid black;
 }
 
 /* Components */
 .card {
-  margin-inline: auto; /* horizontally center the card */
   padding: 1rem;
 
   width: 100%;
-  max-width: 65ch;
-  min-width: 16ch;
-  height: 12.5rem; /* 200px */
+  min-height: 12.5rem; /* 200px */
 
   border: 2px solid black;
-  overflow-y: auto;
 
   /* Spacing between child elements */
   & > * + * {
     margin-top: 0.15rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  p {
-    font-size: 1rem;
-    font-weight: 500;
   }
 }
