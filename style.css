@@ -21,7 +21,7 @@ main {
   padding: 1.25rem 2.25rem;
 
   /* Spacing between cards */
-  & > .card + .card {
+  > .card + .card {
     margin-top: 1.25rem;
   }
 }
@@ -42,7 +42,7 @@ footer {
   border: 2px solid black;
 
   /* Spacing between child elements */
-  & > * + * {
+  > * + * {
     margin-top: 0.15rem;
   }
 }
