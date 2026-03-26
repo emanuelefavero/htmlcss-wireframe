@@ -4,6 +4,10 @@ HTML and CSS exercise to recreate a mobile wireframe layout.
 
 > Note: See the [Implementation Notes](#implementation-notes) section at the end of this document for implementation notes and design choices.
 
+## Live Demo
+
+[**View Live Demo**](https://emanuelefavero.github.io/htmlcss-wireframe/)
+
 ## Goal
 
 Reproduce the wireframe shown at the end of this document, with a focus on:
