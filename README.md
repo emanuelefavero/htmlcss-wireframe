@@ -2,25 +2,23 @@
 
 HTML and CSS exercise to recreate a mobile wireframe layout.
 
-> Note: See the [Implementation Notes](#implementation-notes) section at the end of this document for implementation notes and design choices.
+> Note: See the [Technical Notes](#technical-notes) section at the end of this document for implementation details and design choices.
 
 ## Table of Contents
 
-- [HTML/CSS Wireframe](#htmlcss-wireframe)
-  - [Table of Contents](#table-of-contents)
-  - [Live Demo](#live-demo)
-  - [How to run the project](#how-to-run-the-project)
-  - [Goal](#goal)
-  - [Requirements](#requirements)
-  - [Project Structure](#project-structure)
-  - [Implementation Notes](#implementation-notes)
-  - [Wireframe example](#wireframe-example)
+- [Live Demo](#live-demo)
+- [Run Locally](#run-locally)
+- [Goal](#goal)
+- [Requirements](#requirements)
+- [Project Structure](#project-structure)
+- [Technical Notes](#technical-notes)
+- [Wireframe Example](#wireframe-example)
 
 ## Live Demo
 
 [**View Live Demo**](https://emanuelefavero.github.io/htmlcss-wireframe/)
 
-## How to run the project
+## Run Locally
 
 1. Clone the repository: `git clone https://github.com/emanuelefavero/htmlcss-wireframe.git`
 2. Navigate to the project directory: `cd htmlcss-wireframe`
@@ -30,7 +28,9 @@ HTML and CSS exercise to recreate a mobile wireframe layout.
 
 ## Goal
 
-Reproduce the wireframe shown at the end of this document, with a focus on:
+Reproduce the mobile wireframe shown at the end of this document by building the layout with semantic HTML and CSS. The exercise focuses on the fundamentals of layout composition and visual consistency.
+
+Key areas of attention:
 
 - the box model
 - spacing
@@ -49,11 +49,20 @@ Reproduce the wireframe shown at the end of this document, with a focus on:
 
 ```txt
 htmlcss-wireframe/
+├── assets/
+│   └── wireframe.webp
 ├── index.html
-└── styles.css
+├── README.md
+└── style.css
 ```
 
-## Implementation Notes
+Main files:
+
+- `index.html` contains the page structure and content.
+- `style.css` contains the layout and visual styling rules.
+- `assets/wireframe.webp` is the reference wireframe image used for the exercise.
+
+## Technical Notes
 
 - Spacing is applied only between consecutive cards by using a sibling selector.
 - Vertical spacing is managed from the parent container instead of assigning top margins directly to each element.
@@ -62,7 +71,7 @@ htmlcss-wireframe/
 - A separate `.cards` wrapper was considered, but omitted to keep the structure simpler.
 - A dashed border is kept on `body` to make the simulated viewport clearly visible.
 
-## Wireframe example
+## Wireframe Example
 
 ![Wireframe](assets/wireframe.webp)
 
