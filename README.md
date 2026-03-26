@@ -48,8 +48,9 @@ Reproduce the wireframe shown at the end of this document, with a focus on:
 ## Project Structure
 
 ```txt
+htmlcss-wireframe/
 ├── index.html
-└── style.css
+└── styles.css
 ```
 
 ## Implementation Notes
