@@ -8,8 +8,8 @@
 /* Layout */
 body {
   width: 512px;
-  border: 2px dashed black;
   margin: 0 auto;
+  border: 2px dashed black;
 }
 
 header {
@@ -19,11 +19,6 @@ header {
 
 main {
   padding: 1.25rem 2.25rem;
-
-  /* Spacing between cards */
-  > .card + .card {
-    margin-top: 1.25rem;
-  }
 }
 
 footer {
@@ -32,16 +27,20 @@ footer {
 }
 
 /* Components */
+.cards {
+  /* Space between cards */
+  > .card + .card {
+    margin-top: 1.25rem;
+  }
+}
+
 .card {
-  padding: 1rem;
-
-  width: 100%;
   min-height: 12.5rem; /* 200px */
-
+  padding: 1rem;
   border: 2px solid black;
 
-  /* Spacing between child elements */
+  /* Space inside card */
   > * + * {
-    margin-top: 0.15rem;
+    margin-top: 0.25rem;
   }
 }

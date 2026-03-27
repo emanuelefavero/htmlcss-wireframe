@@ -26,7 +26,7 @@ HTML and CSS exercise to recreate a mobile wireframe layout.
 2. Navigate to the project directory: `cd htmlcss-wireframe`
 3. Open `index.html` in your web browser to see the wireframe.
 
-> Note: Chrome 112+ is recommended for best CSS support, but any modern browser should work.
+> Note: Chrome 112+ is recommended for best CSS nesting support, but any modern browser should work.
 
 ## Goal
 
