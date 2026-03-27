@@ -6,13 +6,15 @@ HTML and CSS exercise to recreate a mobile wireframe layout.
 
 ## Table of Contents
 
-- [Live Demo](#live-demo)
-- [Run Locally](#run-locally)
-- [Goal](#goal)
-- [Requirements](#requirements)
-- [Project Structure](#project-structure)
-- [Technical Notes](#technical-notes)
-- [Wireframe Example](#wireframe-example)
+- [HTML/CSS Wireframe](#htmlcss-wireframe)
+  - [Table of Contents](#table-of-contents)
+  - [Live Demo](#live-demo)
+  - [Run Locally](#run-locally)
+  - [Goal](#goal)
+  - [Requirements](#requirements)
+  - [Project Structure](#project-structure)
+  - [Technical Notes](#technical-notes)
+  - [Wireframe Example](#wireframe-example)
 
 ## Live Demo
 
@@ -68,7 +70,8 @@ Main files:
 - Vertical spacing is managed from the parent container instead of assigning top margins directly to each element.
 - CSS Nesting is used to keep related selectors grouped together, since it is supported in modern browsers.
 - `min-height` is used instead of a fixed `height` so the cards can stay visually consistent while still growing when the content is longer.
-- A separate `.cards` wrapper was considered, but omitted to keep the structure simpler.
+- A separate `.cards` wrapper or `section` was considered, but omitted to keep the structure simpler.
+- `article` tags could be used for the cards to be more semantically correct, but `div` tags are used here since the content is still not fully defined.
 - A dashed border is kept on `body` to make the simulated viewport clearly visible.
 
 ## Wireframe Example
