@@ -66,9 +66,9 @@ Main files:
 
 ## Technical Notes
 
-- Spacing is applied only between consecutive cards by using a sibling selector.
-- Vertical spacing is managed from the parent container instead of assigning top margins directly to each element.
-- CSS Nesting is used to keep related selectors grouped together, since it has good support in modern browsers. See [Can I Use](https://caniuse.com/css-nesting) for details.
+- The `.cards` container owns the vertical spacing between repeated cards, keeping that responsibility separate from the page-level layout handled by `main`.
+- Spacing is applied only between consecutive cards by using a sibling selector, avoiding top margins on every card and preventing unnecessary extra space before the first item.
+- CSS Nesting is used, since it has good support in modern browsers. See [Can I Use](https://caniuse.com/css-nesting) for details.
 - `min-height` is used instead of a fixed `height` so the cards can stay visually consistent while still growing when the content is longer.
 - A dashed border is kept on `body` to make the simulated viewport clearly visible.
 
